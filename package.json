@@ -1,0 +1,36 @@
+{
+  "name": "gollumts-trait",
+  "version": "1.0.0",
+  "description": "Simple trait decorator for TS class.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GollumJS/gollumts-annotation.git"
+  },
+  "keywords": [
+    "trait",
+    "decorator",
+    "annotation",
+    "simple",
+    "typescript"
+  ],
+  "author": "Damien Duboeuf <smeagolworms4@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/GollumJS/gollumts-trait/issues"
+  },
+  "homepage": "https://github.com/GollumJS/gollumts-trait/blob/master/README.md",
+  "dependencies": {
+  },
+  "files": [
+    "README.mb",
+    "LICENSE",
+    "package.json",
+    "index.ts",
+    "src/Trait.ts"
+  ],
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
+}
