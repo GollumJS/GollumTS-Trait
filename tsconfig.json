@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"lib": [
+			"es5",
+			"ScriptHost",
+			"DOM",
+			"ES2015.Promise"
+		]
+	},
+	"files": [
+		"index.ts",
+		"src/Trait.ts",
+	]
+}

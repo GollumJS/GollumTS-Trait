@@ -1,9 +1,10 @@
 {
   "name": "gollumts-trait",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple trait decorator for TS class.",
   "main": "index.js",
   "scripts": {
+    "build": "node node_modules/typescript/bin/tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -21,14 +22,18 @@
     "url": "https://github.com/GollumJS/gollumts-trait/issues"
   },
   "homepage": "https://github.com/GollumJS/gollumts-trait/blob/master/README.md",
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "README.mb",
     "LICENSE",
     "package.json",
+    "tsconfig.json",
     "index.ts",
-    "src/Trait.ts"
+    "src/Trait.ts",
+    "index.js",
+    "src/Trait.js",
+    "index.js.map",
+    "src/Trait.js.map"
   ],
   "devDependencies": {
     "typescript": "^2.3.2"

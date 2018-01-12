@@ -1,5 +1,3 @@
-import {Writer} from "../Decorator/Writer";
-
 export function Trait (trait: any) {
 	return function (target: any, propertyKey: string = null, descriptor: PropertyDescriptor = null) {
 		

@@ -13,7 +13,7 @@ npm install gollumts-trait
 ## Use trait
 
 ```typescript
-import {Trait} from "gollumts-annoation";
+import {Trait} from "gollumts-trait";
 
 export class Animal {
 	
