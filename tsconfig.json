@@ -7,9 +7,7 @@
 		"sourceMap": true,
 		"lib": [
 			"es5",
-			"ScriptHost",
-			"DOM",
-			"ES2015.Promise"
+			"ScriptHost"
 		]
 	},
 	"files": [

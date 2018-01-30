@@ -1,6 +1,6 @@
 {
   "name": "gollumts-trait",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple trait decorator for TS class.",
   "main": "index.js",
   "scripts": {
@@ -30,10 +30,13 @@
     "tsconfig.json",
     "index.ts",
     "src/Trait.ts",
+    "exemples/hello-world.ts",
     "index.js",
     "src/Trait.js",
+    "exemples/hello-world.js",
     "index.js.map",
-    "src/Trait.js.map"
+    "src/Trait.js.map",
+    "exemples/hello-world.js.map"
   ],
   "devDependencies": {
     "typescript": "^2.3.2"
